@@ -5,30 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script> -->
+    <style>
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h1 {
+            margin-bottom: 1rem;
+        }
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #5c41e3;
+            color: white;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
     <main>
         <section>
+            <div class="topnav">
+                <a class="active" href="#aboutme">About me</a>
+            </div>
+        </section>
+        <section>
             <h1>About Me</h1>
-            <p>
-                Hey! 
-            </p>
-            <p>
-                My name is Hayk. I am a software engineer based in Yerevan.<br>
-                I am currently employed at nOps, where I spend my time thinking about cost optimization on Kubernetes.<br>
-                I code mainly in Python and sometimes in Go and I often daydream about starting a company.<br>
-                I previously worked as a software engineer at a number of other startups.<br>
-                Before that, I studied philosophy and religion in Middlebury College, in the scenic state of Vermont. At this time, Heidegger was my favorite philosopher.<br>
-                Before Heidegger, I studied in the UWC Pearson College on the Pacific coast.<br>
-            </p>
+            <div class="bio-text">
+                Hey! <br>
+                My name is Hayk. I am a software engineer based in Yerevan.
+                I am currently employed at nOps, where I spend my time thinking about cost optimization on Kubernetes.
+                I code mainly in Python and sometimes in Go and I often daydream about starting a company.
+                I previously worked as a software engineer at a number of other startups.
+                Before that, I studied philosophy and religion in Middlebury College, in the scenic state of Vermont. At this time, Heidegger was my favorite philosopher.
+                Before Heidegger, I studied in the UWC Pearson College on the Pacific coast.
+            </div>
         </section>
     </main>
     <footer>
-        <p>
+        <div class="footer">
             © 
             <script>document.write(new Date().getFullYear())</script>
-            All rights reserved.
-        </p>
+            All rights reserved. 
+        </div>
     </footer>
 </body>
 </html>
