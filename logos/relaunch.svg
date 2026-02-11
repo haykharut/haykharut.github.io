@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0052FF" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+    <linearGradient id="iconGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF" />
+      <stop offset="100%" stop-color="#0066FF" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M8 6 L24 6 L20 16 L16 26 L12 16 Z"
+    fill="url(#iconGradient1)"
+    opacity="0.9"
+  />
+  <path
+    d="M6 10 L18 10 L15 20 L12 26 L9 20 Z"
+    fill="url(#iconGradient2)"
+    opacity="0.7"
+  />
+</svg>
